@@ -4,7 +4,7 @@ Codewars is an educational community for computer programming. On the platform, 
 
 The platform is owned and operated by Qualified, a technology company that provides a platform for assessing and training software engineering skills.
 
-Always Update
+Always Update Every Day
 
 
 Adnin Qasifa

@@ -4,15 +4,14 @@ def greet(name):
   else:
       return "Hello, {name}!".format(name=name)
 
-// Test Function do not edit
-function Test(fun, result) {
-  console.log(JSON.stringify(fun) === JSON.stringify(result));
-}
+# Test Function do not edit
+def Test(fun, result):
+    print(fun == result)
 
-// Test assertions
-Test(greet("Jim"), "Hello, Jim!");
+# # Test assertions
+Test(greet("James"), "Hello, Simon!");
 Test(greet("Jane"), "Hello, Jane!");
-Test(greet("Simon"), "Hello, Simon!");
+Test(greet("Jim"), "Hello, Jim!");
 Test(greet("Johnny"), "Hello, my love!");
 
-// DONE
+#print(greet("Jim"))
