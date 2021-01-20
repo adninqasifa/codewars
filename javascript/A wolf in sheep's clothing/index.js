@@ -1,5 +1,5 @@
 function warnTheSheep(queue) {
-  ueue.reverse()
+  queue.reverse()
   if(queue[0] == "wolf") {
     return "Pls go away and stop eating my sheep"
   } else {

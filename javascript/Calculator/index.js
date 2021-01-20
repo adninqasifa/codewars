@@ -1,23 +1,9 @@
 const Calculator = function() {
-  // do code here
   this.evaluate = string => {
-    let n = string.split(' ')
-    let result = 0;
-    let counter = 0;
-    for(let i = counter ; i < n.length; i++) {
-      if(result == 0) {
-        result = Number(n[i])
-      } else {
-        if(n[i]=='+') result = result + Number(n[i+1])
-        else if(n[i]=='-') result = result - Number(n[i+1])
-        else if(n[i]=='/') result = result / Number(n[i+1])
-        else if (n[i]=='*') result = result * Number(n[i+1])
-        counter++
-      }
-    }
+    let result = eval(string)
     return result
   }
-};
+}
 
 // Test Function do not edit
 function Test(fun, result) {
