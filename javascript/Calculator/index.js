@@ -1,9 +1,10 @@
 const Calculator = function() {
   this.evaluate = string => {
+    // do code here
     let result = eval(string)
     return result
   }
-}
+};
 
 // Test Function do not edit
 function Test(fun, result) {
@@ -19,5 +20,3 @@ Test(calculate.evaluate('10 *  5 / 2'), 25);
 
 console.log("Bonus Test")
 Test(calculate.evaluate('10 + 6 / 2'), 13);
-
-// DONE
