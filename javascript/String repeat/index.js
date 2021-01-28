@@ -17,3 +17,5 @@ Test(repeatStr(5, "#"), "#####");
 Test(repeatStr(2, "ha "), "ha ha ");
 Test(repeatStr(6, "I"), "IIIIII");
 Test(repeatStr(5, "Hello"), "HelloHelloHelloHelloHello");
+
+// DONE
